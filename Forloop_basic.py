@@ -42,7 +42,8 @@ for num in range(2018, 1, -4):
 # if lowNum=2, highNum=9, and mult=3, the loop should print 3, 6, 9 (on successive lines)
 
 def flex_countdown(low, high, mult):
-    for i in range (low, high + 1):
+    for i in range (low, high+1):
         if i % mult == 0:
             print (i)
-    flex_countdown(2, 9, 3)
+new_val =   flex_countdown(2, 9, 3)
+print(new_val)
