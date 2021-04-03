@@ -45,5 +45,4 @@ def flex_countdown(low, high, mult):
     for i in range (low, high+1):
         if i % mult == 0:
             print (i)
-new_val =   flex_countdown(2, 9, 3)
-print(new_val)
+flex_countdown(2, 9, 3)
